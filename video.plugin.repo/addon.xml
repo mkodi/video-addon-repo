@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="video.plugin.repo" name="Video Plugin Repo" version="1.0.0" provider-name="MK">
+<addon id="video.plugin.repo" name="Video Plugin Repo" version="1.0.1" provider-name="MK">
     <extension point="xbmc.addon.repository" name="Video Plugin Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/mkodi/video-plugin-repo/master/addons.xml</info>
