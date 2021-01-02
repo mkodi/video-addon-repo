@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.livetv"
+       version="1.0.2"
+       name="Live TV Kodi Video Plugin"
+       provider-name="MK">
+    <requires>
+        <import addon="xbmc.python" version="2.7.18"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.livestreamer" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Live TV Kodi Video Plugin</summary>
+        <description lang="en">Video plugin for Kodi mediacenter.</description>
+        <disclaimer lang="en">Free streaming videos are provided by klani im.</disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
